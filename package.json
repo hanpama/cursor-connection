@@ -1,0 +1,40 @@
+{
+  "name": "cursor-connection",
+  "version": "0.5.2",
+  "description": "Abstract implementation of Relay cursor connection",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "keywords": [
+    "graphql",
+    "relay",
+    "cursor",
+    "connection"
+  ],
+  "license": "MIT",
+  "author": "Max Choi <hanpama@gmail.com>",
+  "tags": [
+    "graphql",
+    "relay",
+    "cursor",
+    "connection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanpama/cursor-connection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanpama/cursor-connection/issues"
+  },
+  "homepage": "https://github.com/hanpama/cursor-connection",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
